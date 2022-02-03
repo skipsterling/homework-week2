@@ -8,6 +8,7 @@ body{
 .wrapper{
     width: 1170px;
     margin: 0 auto;
+    
 }
 header{
     height: 100px;
@@ -33,6 +34,9 @@ margin: auto;
 nav{
     float:right;
     line-height: 100px;
+    display:flex;
+    flex-flow: row;
+    text-align: center;
 }
 nav a{
     text-decoration: none;
@@ -66,8 +70,9 @@ nav a{
 }
 .wrapper2 {
     display:flex;
+    justify-content: left;
     flex-flow: row;
-    text-align: center;
+    text-align: auto;
     background-color: tan;
     
 }
@@ -230,4 +235,5 @@ nav a{
     text-align: center;
     background-color:#fff;
 }
+
 
